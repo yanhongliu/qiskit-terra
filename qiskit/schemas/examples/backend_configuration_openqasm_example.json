@@ -19,7 +19,7 @@
         {"name": "u3",
          "parameters": ["theta","phi","lambda"],
          "coupling_map": [[0],[1],[2]],
-         "qasm_def": "u3(theta,phi,lambda) q { U(theta,phi,lambda) q; }",
+         "qasm_def": "gate u3(theta,phi,lambda) q { U(theta,phi,lambda) q; }",
          "latency_map": [[1],[1],[1]]},
         {"name": "cx",
          "parameters": [],
